@@ -1,0 +1,46 @@
+person "Vladimir Putin"
+	government "Author"
+	frequency 300
+	personality
+		heroic vindictive unconstrained 
+	phrase
+		word
+			"Everything will probably never be okay, but we have to try for it."
+			"You can do a lot more with weapons and politeness than just politeness."
+			"It's better not to argue with women."
+			"Sometimes it's necessary to be lonely in order to prove that you are right."
+			"I don't regret anything.  I did everything absolutely correctly"
+			"Hitler wanted to destroy Russia.  Everyone needs to remember how that ended."
+			"Maybe they have nothing else to do in America but to talk about me."
+			"Nobody should have any illusion about the possibility of gaining military superiority over Russia.  We will not allow this to happen."
+			"Millions around the world increasingly see America not as a model of democracy but as relying soely on brute force."
+			"Whoever does not miss the Soviet Union has no heart.  Whoever wants it back has no brain."
+	ship "Vladimir Putin"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			"cost" 50000000
+			"shields" 40000
+			"hull" 40000
+			"required crew" 400
+			"bunks" 500
+			"mass" 740
+			"drag" 12.5
+			"heat dissipation" 1
+			"fuel capacity" 5000
+			"cargo space" 200
+			"outfit space" 2400
+			"weapon capacity" 900
+			"engine capacity" 400
+		outfits
+			
+		
+		engine -14 177
+		engine 14 177
+		gun "Tetromino Launcher"
+		turret -23 32 "Putin's Eyes"
+		turret 76.5 33.5 "Putin's Eyes"
+		explode "small explosion" 50
+		explode "medium explosion" 80
+		explode "large explosion" 120
+		explode "huge explosion" 60

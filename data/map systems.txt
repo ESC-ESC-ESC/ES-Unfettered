@@ -1,0 +1,37 @@
+system "The Hallow"
+	pos -224.559 390.193
+	government "The Holy"
+	habitable 2140.92
+	music "ambient/empress of light kuudray remix"
+	haze haze-none
+	link Dabih
+	trade Clothing 230
+	trade Electronics 790
+	trade Equipment 450
+	trade Food 210
+	trade "Heavy Metals" 960
+	trade Industrial 710
+	trade "Luxury Goods" 1430
+	trade Medical 900
+	trade Metal 260
+	trade Plastic 310
+	"starfield density" 0.01
+	object
+		sprite star/g0
+		distance 0
+		period 10.5225
+	object
+		sprite "planet/yniu eiu"
+		distance 6886.72
+		period 708.469
+		object
+			sprite star/a-dwarf
+			distance 266
+			period 11.0812
+
+system Dabih
+	link Eltanin
+	link "Kaus Australis"
+	link Lurata
+	link Tarazed
+	link "The Hallow"

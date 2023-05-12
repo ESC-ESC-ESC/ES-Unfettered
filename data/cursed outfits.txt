@@ -1,0 +1,171 @@
+outfit "Hellmann's Real Mayo"
+	category "Power"
+	cost 849
+	thumbnail "outfit/mayonnaise"
+	"mass" 15
+	"outfit space" -15
+	"energy capacity" 1750
+	"energy generation" 0.9
+	"heat generation" 1.0
+	description "Hellmann's Real Mayonnaise 15oz Jar"
+	description "	Naturally Rich in Omega 3 ALA (Contains 650mg ALA per serving; 50% of the Daily Value of ALA (1300mg))."
+	description "	U.S. Dietary Guidelines recommend eating a varied, nutritious diet within your calorie needs. This product contains no trans fat. See Nutrition Facts for calorie, fat, saturated fat, cholesterol, sodium, and sugar content. Gluten-free. Known as best foods west of the Rockies. Eat Smart. Quality of this product is guaranteed. "
+	description " "
+	description "	Ingredients:"
+	description "	SOYBEAN OIL, WATER, WHOLE EGGS AND EGG YOLKS (WHOLE EGGS AND EGG YOLKS), VINEGAR, SALT, SUGAR, LEMON JUICE CONCENTRATE, CALCIUM DISODIUM EDTA (USED TO PROTECT QUALITY), NATURAL FLAVORS."
+	description " "
+	description "NUTRITION FACTS"
+	description "Serving Size 	1 tbsp (13 g)"
+	description "Amount Per Serving"
+	description "Calories 90"
+	description "% Daily Values*"
+	description "Total Fat 10.00g	13%"
+	description "	Saturated Fat 1.500g	8%"
+	description "	Trans Fat - 0%"
+	description "	Polyunsaturated Fat 6.000g -"
+	description "	Monounsaturated Fat 2.500g -"
+	description "Cholesterol 10mg	3%"
+	description "Sodium 90mg	4%"
+	description "Total Carbohydrate 0.00g 	0%"
+	description "	Dietary Fiber 0.0g	0%"
+	description "	Sugars 0.00g	-"
+	description "Protein 0.00g	-"
+	description "Vitamin D -	-"
+	description "Calcium -	-"
+	description "Iron -	-"
+	description "Potasium -	-"
+	description " "
+	description "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+	description " "
+	description "	Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition."
+
+
+outfit "Hellmann's Real Mayo 2Pack"
+	category "Power"
+	cost 1499
+	thumbnail "outfit/mayo 2x"
+	"mass" 30
+	"outfit space" -30
+	"energy capacity" 4000
+	"energy generation" 2.0
+	"heat generation" 2.0
+	description "Hellmann's Real Mayonnaise 15oz Jar 2-Pack"
+	description "	Naturally Rich in Omega 3 ALA (Contains 650mg ALA per serving; 50% of the Daily Value of ALA (1300mg))."
+	description "	U.S. Dietary Guidelines recommend eating a varied, nutritious diet within your calorie needs. This product contains no trans fat. See Nutrition Facts for calorie, fat, saturated fat, cholesterol, sodium, and sugar content. Gluten-free. Known as best foods west of the Rockies. Eat Smart. Quality of this product is guaranteed. "
+	description " "
+	description "	Ingredients:"
+	description "	SOYBEAN OIL, WATER, WHOLE EGGS AND EGG YOLKS (WHOLE EGGS AND EGG YOLKS), VINEGAR, SALT, SUGAR, LEMON JUICE CONCENTRATE, CALCIUM DISODIUM EDTA (USED TO PROTECT QUALITY), NATURAL FLAVORS."
+	description " "
+	description "NUTRITION FACTS"
+	description "Serving Size 	1 tbsp (13 g)"
+	description "Amount Per Serving"
+	description "Calories 90"
+	description "% Daily Values*"
+	description "Total Fat 10.00g	13%"
+	description "	Saturated Fat 1.500g	8%"
+	description "	Trans Fat - 0%"
+	description "	Polyunsaturated Fat 6.000g -"
+	description "	Monounsaturated Fat 2.500g -"
+	description "Cholesterol 10mg	3%"
+	description "Sodium 90mg	4%"
+	description "Total Carbohydrate 0.00g 	0%"
+	description "	Dietary Fiber 0.0g	0%"
+	description "	Sugars 0.00g	-"
+	description "Protein 0.00g	-"
+	description "Vitamin D -	-"
+	description "Calcium -	-"
+	description "Iron -	-"
+	description "Potasium -	-"
+	description " "
+	description "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+	description " "
+	description "	Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition."
+
+
+outfit "Putin's Eyes"
+	category "Turrets"
+	cost 1000000
+	thumbnail "outfit/putin's eyes"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/eye glow"
+		"hardpoint sprite" "ship/cloaked"
+		"hardpoint offset" 0.0
+		sound "tetris c remix"
+		"turret turn" 1000
+		"velocity" 0
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0
+		"firing heat" 0
+		"shield damage" 0
+		"hull damage" 0
+	description "An audio/visual cue that Putin is pissed off."
+
+outfit "Tetromino i Launcher"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfit/tetromino launcher"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/tetromino/tetromino i"
+			"frame time" 103
+			
+outfit "Eye of Providence Scanning You Right Back"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/laser turret"
+	"mass" 1
+	"outfit space" -1
+	"cargo scan power" 100000
+	"cargo scan speed" 100000
+	"outfit scan power" 100000
+	"outfit scan speed" 100000
+	"tactical scan power" 100000
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

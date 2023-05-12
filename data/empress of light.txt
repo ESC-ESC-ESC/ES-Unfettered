@@ -1,0 +1,227 @@
+ship "Empress of Light"
+	sprite "ship/empress of light/empress of light"
+		"frame rate" 120
+		"random start frame"
+	thumbnail "thumbnail/empress of light"
+	attributes
+		category "Heavy Warship"
+		"cost" 35000000
+		"shields" 57000
+		"hull" 19000
+		"required crew" 1
+		"bunks" 1
+		"mass" 130
+		"drag" 4.1
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 0
+		"outfit space" 0
+		"weapon capacity" 0
+		"engine capacity" 0
+		"never disabled"
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Prismatic Bolts"
+		"Effervescent Charge" 
+		"Sun Dance"
+		"Everlasting Rainbow"
+		"Ethereal Lance"
+		
+		"Heart of Light"
+		"Celestial Bond"
+		
+		"Empress Wings"
+		
+	engine 0 0
+	engine 0 0
+	gun 0 -1 "Prismatic Bolts"
+	gun 0 -1 "Effervescent Charge"
+	gun 0 -1 "Sun Dance"
+	gun 0 -1 "Everlasting Rainbow"
+	turret 0 -1 "Radiant Voice"
+	turret 0 -1 "Ethereal Lance"
+	leak "empress leak" 50 50
+	leak "empress flame" 50 80
+	leak "big empress leak" 90 30
+	explode "tiny empress" 10
+	explode "small empress" 25
+	explode "medium empress" 25
+	explode "large empress" 10
+	"final explode" "final express"
+	description "The Ancient Spirit of Light, The Vengeful Fae Goddess, The Mistress and Core of the Hallow, The Overcompensation of Purity, The Empress of Light."
+
+outfit "Prismatic Bolts"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/prismatic bolts"
+	"mass" 5
+	"outfit space" -1000
+	"weapon capacity" -1000
+	"gun ports" -1
+	weapon
+		sprite "projectile/prismatic bolt"
+		sound "prismatic bolt"
+		"hit effect" "prismatic bolt impact"
+		"turn" 3
+		"homing" 3
+		"inaccuracy" 360
+		"velocity" 10
+		"acceleration" 0.3
+		"drag" 0.03
+		"lifetime" 240
+		"reload" 900
+		"burst reload" 2.4
+		"burst count" 25
+		"relative firing energy" 4
+		"firing heat" 1
+		"shield damage" 10.6
+		"hull damage" 6.6
+	description "Launches a cloud of Prismatic Bolts which home-in on enemies."
+
+outfit "Effervescent Charge"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/effervescent charge"
+	"mass" 5
+	"outfit space" -1000
+	"weapon capacity" -1000
+	"gun ports" -1
+	weapon
+		sprite "projectile/effervescent charge start"
+		sound "effervescent charge start"
+		"fire effect" "Effervescent Charge start"
+		"hit effect" "prismatic bolt impact"
+		"inaccuracy" 0
+		"velocity" 0
+		"velocity override" 30
+		"range override" 900
+		"acceleration" 1
+		"drag" 1000
+		"lifetime" 45
+		"reload" 900
+		"relative firing energy" 100
+		"firing heat" 1
+		"shield damage" 1
+		"hull damage" 1
+		"submunition" "dattack" 1
+	description "Launches a cluster of holograms of the Empress of Light at the enemy."
+
+outfit "dattack"
+	weapon
+		sprite "projectile/dattack"
+			"frame rate" 60
+		"hit effect" "dattack impact"
+		"lifetime" 60
+		"acceleration" 0.75
+		"drag" .05
+		"shield damage" 4.2
+		"hull damage" 8.4
+		"ion damage" .3
+		"scrambling damage" .3
+		"hit force" 15
+
+outfit "Sun Dance"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/sun dance"
+	"mass" 5
+	"outfit space" -1000
+	"weapon capacity" -1000
+	"gun ports" -1
+	weapon
+		sprite "projectile/sun d"
+
+outfit "Everlasting Rainbow"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/everlasting rainbow"
+	"mass" 5
+	"outfit space" -1000
+	"weapon capacity" -1000
+	"gun ports" -1
+	weapon
+		sprite "projectile/everlasting rainbow"
+		sound "prismatic bolt"
+		"hit effect" "everlasting rainbow impact"
+		"turn" 1
+		"inaccuracy" 0
+		"velocity" 10
+		"lifetime" 240
+		"reload" 900
+		"burst reload" 2.4
+		"burst count" 25
+		"relative firing energy" 4
+		"firing heat" 1
+		"shield damage" 10.6
+		"hull damage" 6.6
+	description "Launches a cloud of Prismatic Bolts which home-in on enemies."
+
+outfit "Ethereal Lance"
+	category "Turrets"
+	cost 10000000
+	thumbnail "outfit/ethereal lance"
+	"mass" 5
+	"outfit space" -1000
+	"weapon capacity" -1000
+	"turret mounts" -10
+	weapon
+		"hardpoint sprite" "hardpoint/ethereal lance"
+		"hardpoint offset" 4.
+		"hit effect" "ethereal lance"
+		"anti-missile" 20
+		"velocity" 225
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 2
+		"firing heat" 1
+	description "Centuries ago, space battles were fought mostly with missiles, with the outcome dependent only on which ship had more shielding or ammunition. Lovelace Labs was originally founded to remedy that situation by developing a protective system that could shoot missiles out of the air, defending freighter convoys from pirates who could otherwise simply bombard them into submission without ever venturing within range of their guns."
+
+effect "ethereal lance"
+	sprite "effect/ethereal lance"
+		"no repeat"
+		"frame rate" 3
+	sound "ethereal lance"
+	"lifetime" 21
+	"velocity scale" 1
+
+outfit "Heart of Light"
+	category "Power"
+	cost 10000000
+	thumbnail "outfit/heart of light"
+	"mass" 5
+	"outfit space" -1000
+	"energy capacity" 10000
+	"heat generation" 0
+	"ion resistance" 0.1
+	"scrambling resistance" 0.1
+	description "The pulsing heart of a fierce deity."
+
+outfit "Celestial Bond"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/celestial bond"
+	"mass" 5
+	"outfit space" -1000
+	"solar collection" 56
+	description "The eternal bond between the stars themselves and the Empress of Light.  Even when she is defeated, this bond remains and shall bring her back for as long as the stars still shine."
+
+outfit "Empress Wings"
+	plural "Empress Wings"
+	category "Engines"
+	"cost" 10000000
+	thumbnail "outfit/empress wings"
+	"mass" 5
+	"outfit space" -1000
+	"engine capacity" -1000
+	"thrust" 45
+	"thrusting energy" 0
+	"thrusting heat" 0
+	"turn" 450
+	"turning energy" 0
+	"turning heat" 0
+	description `The glittering wings of a fairy goddess.  Light itself transfigured into motion.`
+

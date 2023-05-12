@@ -1,0 +1,118 @@
+ship "Space Shuttle"
+	sprite "ship/space shuttle"
+	thumbnail "thumbnail/shuttle thumbnail"
+	attributes
+		category "Transport"
+		"cost" 180000
+		"shields" 500
+		"hull" 600
+		"required crew" 1
+		"bunks" 8
+		"mass" 90
+		"drag" 1.2
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 23
+		"outfit space" 120
+		"weapon capacity" 15
+		"engine capacity" 70
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	gun 0 -40
+	engine -6 30
+	engine 6 30
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "The Space Shuttle was a partially reusable low Earth orbital spacecraft system operated from 1981 to 2011 by the United States National Aeronautics and Space Administration (NASA) as part of the Space Shuttle program.  Even though it has been 1000 years since the original Space Shuttle was in service, the design has seen a resurgence in recent years."
+	description "	Some random history nerd at Betelgeuse Shipyards snuck this design into a competition for a Light Freighter as an in-joke with some buddies.  After his design was chosen, much to the prankster's surprise, he was forced to redesign a ship nearly 1000 years old to meet the ambitious proposal he had submitted.  To his credit, he did a decent job of it."
+
+ship "Colorful Sparrow"
+	sprite "ship/colorful sparrow"
+	thumbnail "thumbnail/colorful sparrow thumbnail"
+	attributes
+		category "Interceptor"
+		"cost" 35000
+		"shields" 1200
+		"hull" 300
+		"required crew" 1
+		"bunks" 3
+		"mass" 50
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 130
+		"weapon capacity" 45
+		"engine capacity" 40
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"Laser Turret" 2
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+		
+	engine -5 35
+	engine 5 35
+	turret 4.5 0
+	turret -3 2
+	leak "flame" 60 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Chirp chirp chirp.  Cheep chitter chirp chirp cheep, chitter flutter chirp.  Chitter peck chirp chirp chitter pip, peck tweet chirp chirp chitter chirp.  Peck, chitter chirp chirp peck pip, peck, peck, chirp chirp, chitter."
+	description "	Pip flutter chirp peck pip peck chitter peck chitter pip flutter.  Twitter, flutter pip twitter tweet peck chirp cheep flutter pip flutter flutter.  Pip chitter peck flutter flutter tweet flutter chitter chitter cheep pip chirp pip cheep cheep, peck flutter chitter twitter chirp twitter chitter chitter chitter peck chirp.  Cheep peck chirp flutter cheep, pip tweet twitter.  Pip pip tweet tweet flutter twitter chitter tweet pip chitter cheep chitter peck peck twitter peck chirp chirp twitter chitter peck twitter peck."
+
+
+ship "Empty Shipping Container"
+	sprite "ship/empty shipping container"
+	thumbnail "thumbnail/empty shipping container thumbnail"
+	attributes
+		category "Light Freighter"
+		"cost" 2500
+		"shields" 600
+		"hull" 1000
+		"required crew" 1
+		"bunks" 3
+		"mass" 70
+		"drag" 2.1
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 50
+		"outfit space" 130
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		
+	engine -9 38
+	engine 9 38
+	turret 0 -8
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "It's an empty shipping container."

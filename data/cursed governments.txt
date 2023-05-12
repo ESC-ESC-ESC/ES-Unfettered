@@ -1,0 +1,13 @@
+government "Police"
+	swizzle 2
+	"player reputation" 1000
+	"attitude toward"
+		"Alpha" -1000
+		"Ka'het" -1
+		" Ka'het " -1
+		"Korath" -1
+		"Korath Nanobots" -1
+		"Kor Mereti" -1
+		"Pirate" -1
+		"Syndicate (Extremist)" -1
+	"friendly hail" "creepy hail"

@@ -1,0 +1,38 @@
+ship "Shipping Container"
+	sprite "ship/empty shipping container"
+	thumbnail "thumbnail/empty shipping container thumbnail"
+	attributes
+		category "Light Freighter"
+		"cost" 2500
+		"shields" 600
+		"hull" 1000
+		"required crew" 1
+		"bunks" 3
+		"mass" 70
+		"drag" 2.1
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 50
+		"outfit space" 130
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Hyperdrive"
+		"X1700 Ion Thruster"
+		"X2200 Ion Steering"
+		
+	engine -9 38
+	engine 9 38
+	turret 0 -8
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "It's an empty shipping container."
